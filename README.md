@@ -1,1 +1,1 @@
-https://devilstoyjam.io/some-random-proj/
+https://DevilsToyJam.io/some-random-proj/
