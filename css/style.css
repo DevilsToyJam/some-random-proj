@@ -13,7 +13,7 @@ html {
 }
 
 .container {
-    min-width: 375px;
+    min-width: 320px;
     position: relative;
     margin: 0 auto;
 }
@@ -29,8 +29,7 @@ html {
 .row {
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
-    padding: 0 45px;
+    justify-content: space-evenly;
     max-width: 650px;
 }
 
@@ -38,7 +37,7 @@ html {
     margin: 0 auto;
     padding-top: 100px;
     height: 865px;
-    width: 375px;
+    width: 320px;
 }
 .main__s-cont {
     margin-top: 35px;
@@ -86,7 +85,7 @@ html {
     width: 282px;
     padding: 8px 0;
     height: 40px;
-    margin: 45px auto;
+    margin: 25px auto;
     background: rgba(242, 242, 242, 0.2);
     border: 1.5px solid #DF2065;
     border-radius: 25px;
@@ -97,6 +96,9 @@ html {
     background: rgba(242, 242, 242, 0.5);
 }
 .main__footer {
+    position: fixed;
+    bottom: 0px; 
+    width: 100%;
     background-color: #ffffff;
     height: 66px;
     box-shadow: 0px -2px 6px 2px rgba(0, 0, 0, 0.2);
@@ -139,8 +141,7 @@ html {
     display: block;
 }
 .educ__cont {
-    padding: 19px;
-    height: 730px;
+    padding: 20px 10px;
     max-width: 700px;
 }
 .educ__item {
@@ -150,7 +151,7 @@ html {
     align-items: center;
     padding: 0px 8px 0px 16px;
     height: 88px;
-    min-width: 337px;
+    min-width: 280px;
     background-color: #ffffff;
     border: solid 2px #e7e7e7;
     box-shadow: 0px 0.5px 4px rgba(0, 0, 0, 0.1);
@@ -172,9 +173,9 @@ html {
 }
 .educ__cont-right-side {
     height: 45px;
-    width: 105px;
+    width: 90px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .educ__cont-right-side .educ__icon {
     padding-top: 10px;
