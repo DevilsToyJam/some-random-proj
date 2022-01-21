@@ -143,6 +143,7 @@ html {
 .educ__cont {
     padding: 20px 10px;
     max-width: 700px;
+    min-height: 650px;
 }
 .educ__item {
     margin-top: 16px;
