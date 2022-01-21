@@ -1,2 +1,1 @@
-# some-random-proj
-super secret
+https://devilstoyjam.io/some-random-proj/
