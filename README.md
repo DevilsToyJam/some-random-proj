@@ -1,1 +1,1 @@
-https://DevilsToyJam.io/some-random-proj/
+https://DevilsToyJam.github.io/some-random-proj/
