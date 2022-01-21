@@ -12,28 +12,33 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-.main__body {
-    
-}
-
 .container {
+    min-width: 375px;
     position: relative;
-    width: 375px;
     margin: 0 auto;
 }
 
 .main__body .container {
+    background-size: cover;
+    background-position: 50%;
     background-image: linear-gradient(180deg, rgba(0, 126, 144, 0.52) 0%, rgba(8, 68, 101, 0.8) 100%), url('../img/main-bg.jpeg');
 }
+.educ__body {
+    background-color: #f1f1f1;
+}
 .row {
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding: 0 45px;
+    max-width: 650px;
 }
 
 .main__container {
+    margin: 0 auto;
     padding-top: 100px;
     height: 865px;
+    width: 375px;
 }
 .main__s-cont {
     margin-top: 35px;
@@ -105,23 +110,27 @@ html {
 }
 
 .educ__wrapper {
+    margin: 0 auto;
     border-bottom: solid 2px #e7e7e7;
     box-shadow: 0px 5px 12px 2px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
 }
 .educ__phone-info {
-    background-color: #ffffff;
+    margin: 0 auto;
+    max-width: 700px;
     display: flex;
     justify-content: space-between;
     height: 44px;
     padding: 13px 16px;
 }
 .educ__top-cont {
-    background-color: #ffffff;
+    margin: 0 auto;
     padding: 33px 0 50px 0;
     display: flex;
     justify-content: left;
     align-content: center;
     height: 72px;
+    max-width: 700px;
 }
 .educ__top-cont .educ__icon {
     margin: 8px 8px 0 25px;
@@ -131,9 +140,8 @@ html {
 }
 .educ__cont {
     padding: 19px;
-    background-color: #f1f1f1;
     height: 730px;
-    box-shadow: inset 0px -2px 5px 1px rgba(0, 0, 0, 0.2);
+    max-width: 700px;
 }
 .educ__item {
     margin-top: 16px;
@@ -142,7 +150,7 @@ html {
     align-items: center;
     padding: 0px 8px 0px 16px;
     height: 88px;
-    width: 337px;
+    min-width: 337px;
     background-color: #ffffff;
     border: solid 2px #e7e7e7;
     box-shadow: 0px 0.5px 4px rgba(0, 0, 0, 0.1);
