@@ -1,3 +1,5 @@
 # some-random-proj
-super secret
+
+Fast testing landing for mobile
+
 https://DevilsToyJam.github.io/some-random-proj/
